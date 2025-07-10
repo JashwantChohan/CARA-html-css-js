@@ -195,7 +195,7 @@ body {
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.0);
     border: 1px solid #cce7d0;
     border-radius: 4px;
-    margin: 15px 0;
+    margin: 15px 10px;
     cursor: pointer;
 }
 
@@ -745,6 +745,7 @@ footer .copywrite {
     #newsletter {
         padding: 40px 20px;
     }
+
     #newsletter .form {
         width: 100%;
     }
@@ -753,7 +754,47 @@ footer .copywrite {
         width: 100%;
 
     }
-    footer .copywrite{
+
+    footer .copywrite {
         text-align: start;
     }
+}
+
+
+/* shop page */
+
+#page-header {
+    background-image: url(./img/banner/b1.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 14px;
+
+}
+
+#page-header h2,
+#page-header p {
+    color: #fff;
+}
+
+#pagination{
+    text-align: center;
+}
+
+#pagination a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px ;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
 }
